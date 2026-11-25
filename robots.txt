@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mdsalmanhasan012-bit.github.io/salman-keybook/sitemap.xml
