@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salman KeyBook – Computer, Keyboard and Excel Codes</title>
+<meta name="description" content="Salman KeyBook: free reference for Windows keyboard shortcuts, Excel shortcuts and formulas, Alt codes and Run/CMD commands. Created by Md Salman Hasan.">
+<meta name="keywords" content="keyboard shortcuts, excel formulas, excel shortcuts, alt codes, cmd commands, run commands, Md Salman Hasan, Salman KeyBook">
+<meta name="author" content="Md Salman Hasan">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Salman KeyBook – Computer, Keyboard and Excel Codes">
+<meta property="og:description" content="Keyboard shortcuts, Excel formulas, Alt codes and CMD commands in one place.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070707;--glow:#2c2210;--surface:#121110;--ink:#f6f0e1;--muted:#b4ac9b;--line:#2e2a1f;--accent:#dcb75c;--accent-ink:#1a1405;--key:#1d1b16;--key-edge:#000000;--hl:#5c4a1a;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="light"]{--bg:#f3f1ea;--glow:#e9dfc6;--surface:#ffffff;--ink:#17140d;--muted:#6a6354;--line:#ddd6c4;--accent:#8a651d;--accent-ink:#ffffff;--key:#faf8f2;--key-edge:#c4bba3;--hl:#f6e4a6;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(130px + env(safe-area-inset-top,0px))}
+body{margin:0;background:radial-gradient(1100px 560px at 15% -8%,var(--glow),transparent 62%),radial-gradient(800px 500px at 100% 30%,var(--glow),transparent 70%),var(--bg);background-attachment:fixed;color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:30}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar{max-width:1080px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{font-weight:700;font-size:20px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.logo .k{font-family:"IBM Plex Mono",monospace;background:var(--accent);color:var(--accent-ink);border-radius:6px;padding:1px 8px;font-size:15px}
+.search{flex:1;min-width:200px}
+.search input{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+.search input:focus,button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.theme{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:9px 12px;cursor:pointer;font:inherit}
+nav.tabs{max-width:1080px;margin:0 auto;padding:0 20px 10px;display:flex;gap:8px;overflow-x:auto}
+nav.tabs a{white-space:nowrap;text-decoration:none;color:var(--muted);padding:6px 14px;border-radius:999px;border:1px solid var(--line);font-size:14px;font-weight:500}
+nav.tabs a:hover{color:var(--ink);border-color:var(--accent)}
+main{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+.hero{padding:26px 0 18px}
+.hero h1{font-size:clamp(30px,5.5vw,52px);line-height:1.08;letter-spacing:-.025em;margin:0 0 12px;max-width:16ch}
+.hero p{margin:0;color:var(--muted);max-width:56ch;font-size:18px}
+.keys{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+kbd{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.84em;background:var(--key);color:var(--ink);border:1px solid var(--key-edge);border-bottom-width:3px;border-radius:6px;padding:2px 8px;display:inline-block;margin:1px 2px;white-space:nowrap}
+.keys kbd{font-size:20px;padding:6px 16px;border-radius:9px}
+section{margin-top:40px}
+section h2{font-size:26px;margin:0 0 4px;letter-spacing:-.015em}
+section>p{margin:0 0 14px;color:var(--muted)}
+.table{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.row{display:grid;grid-template-columns:minmax(150px,260px) 1fr;gap:6px 20px;padding:12px 18px;border-top:1px solid var(--line);align-items:center}
+.row:first-child{border-top:0}
+.row.f{grid-template-columns:minmax(180px,300px) 1fr auto}
+.row .l{font-weight:500}
+.row .d{color:var(--muted);font-size:15px}
+.row .d small{display:block;font-family:"IBM Plex Mono",monospace;color:var(--ink);margin-top:3px;font-size:13px;overflow-wrap:anywhere}
+code{font-family:"IBM Plex Mono",monospace;font-size:14px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 7px;overflow-wrap:anywhere}
+.copy{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:8px;padding:5px 12px;cursor:pointer;font:inherit;font-size:13px}
+.copy:hover{border-color:var(--accent)}
+mark{background:var(--hl);color:inherit;border-radius:3px}
+.empty{padding:40px 20px;text-align:center;color:var(--muted);display:none}
+footer{max-width:1080px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:14px}
+@media (max-width:640px){.row,.row.f{grid-template-columns:1fr}.copy{justify-self:start}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <div class="logo"><span class="k">⌘K</span> Salman KeyBook</div>
+    <div class="search"><input id="q" type="search" placeholder="Search: copy, VLOOKUP, cmd, ©…" aria-label="Search"></div>
+    <button class="theme" id="theme" aria-label="Switch theme">Theme</button>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#windows">Keyboard</a><a href="#excel-keys">Excel Shortcuts</a><a href="#word">Word</a><a href="#chrome">Chrome</a><a href="#powerpoint">PowerPoint</a><a href="#formulas">Excel Formulas</a><a href="#alt">Alt Codes</a><a href="#run">Run &amp; CMD</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>Every computer shortcut and code, in one place.</h1>
+    <p>Keyboard shortcuts for Windows, Word, Excel, PowerPoint and Chrome, plus Excel formulas, Alt codes and Run/CMD commands. Search above or scroll down.</p>
+    <p style="margin-top:14px;font-size:16px;font-weight:600;color:var(--ink)">Created by Md Salman Hasan</p>
+    <div class="keys" aria-hidden="true"><kbd>Ctrl</kbd><kbd>C</kbd><kbd>V</kbd><kbd>Z</kbd><kbd>=</kbd></div>
+  </div>
+  <div id="content"></div>
+  <div class="empty" id="empty">No results found. Try a different word.</div>
+</main>
+<footer><strong style="color:var(--ink)">© 2026 Md Salman Hasan.</strong> On a Mac, use Cmd instead of Ctrl. Formulas are for English Excel; some regions use a semicolon instead of a comma.</footer>
+
+<script>
+var K=function(s){return s.split("+").map(function(x){return "<kbd>"+x.trim()+"</kbd>"}).join("+")};
+var DATA=[
+{id:"windows",title:"Windows keyboard shortcuts",sub:"The essentials for everyday work.",type:"keys",rows:[
+["Ctrl + C","Copy"],["Ctrl + X","Cut"],["Ctrl + V","Paste"],["Ctrl + Z","Undo"],["Ctrl + Y","Redo"],
+["Ctrl + A","Select everything"],["Ctrl + S","Save"],["Ctrl + P","Print"],["Ctrl + F","Find"],["Ctrl + N","New file or window"],
+["Ctrl + B","Bold"],["Ctrl + I","Italic"],["Ctrl + U","Underline"],["Alt + Tab","Switch between open apps"],["Alt + F4","Close the active window"],
+["Win + D","Show or hide the desktop"],["Win + E","Open File Explorer"],["Win + L","Lock the computer"],["Win + V","Clipboard history"],["Win + Shift + S","Screenshot of a selected area"],
+["Win + I","Open Settings"],["Win + R","Open the Run box"],["Ctrl + Shift + Esc","Open Task Manager directly"],["Ctrl + Alt + Delete","Security screen"],["Ctrl + Shift + T","Reopen a closed browser tab"],["F2","Rename the selected file"],["F5","Refresh"],["PrtScn","Screenshot of the whole screen"]]},
+{id:"excel-keys",title:"Excel keyboard shortcuts",sub:"Work faster without the mouse.",type:"keys",rows:[
+["Ctrl + Arrow","Jump to the edge of the data"],["Ctrl + Shift + Arrow","Select to the edge of the data"],["Ctrl + Home","Go to cell A1"],["Ctrl + End","Go to the last used cell"],["Ctrl + Space","Select the entire column"],
+["Shift + Space","Select the entire row"],["Ctrl + +","Insert a new row or column"],["Ctrl + -","Delete a row or column"],["Alt + =","Apply AutoSum"],["Ctrl + ;","Insert today’s date"],
+["Ctrl + Shift + :","Insert the current time"],["F2","Edit the cell"],["F4","Lock a reference ($A$1) or repeat the last action"],["Ctrl + D","Fill down from the cell above"],["Ctrl + R","Fill right from the cell on the left"],
+["Ctrl + Shift + L","Turn filters on or off"],["Ctrl + T","Convert data into a Table"],["Ctrl + 1","Format Cells dialog"],["Alt + Enter","New line inside a cell"],["Ctrl + Shift + $","Currency format"],["Ctrl + Shift + %","Percent format"],["Ctrl + PgDn","Go to the next sheet"],["Ctrl + PgUp","Go to the previous sheet"],["Shift + F11","Insert a new sheet"]]},
+{id:"word",title:"Microsoft Word shortcuts",sub:"Faster typing and formatting.",type:"keys",rows:[
+["Ctrl + B","Bold"],["Ctrl + E","Center align"],["Ctrl + L","Left align"],["Ctrl + R","Right align"],["Ctrl + J","Justify text"],["Ctrl + Shift + >","Increase font size"],["Ctrl + Shift + <","Decrease font size"],["Ctrl + Enter","Insert a page break"],["Ctrl + K","Insert a hyperlink"],["Ctrl + H","Find and replace"],["Ctrl + Shift + C","Copy formatting"],["Ctrl + Shift + V","Paste formatting"],["F7","Spelling and grammar check"],["Shift + F3","Change text case"]]},
+{id:"chrome",title:"Browser (Chrome) shortcuts",sub:"Tabs, history and search.",type:"keys",rows:[
+["Ctrl + T","Open a new tab"],["Ctrl + W","Close the current tab"],["Ctrl + Shift + T","Reopen a closed tab"],["Ctrl + Tab","Go to the next tab"],["Ctrl + 1 to 8","Jump to a tab by position"],["Ctrl + L","Select the address bar"],["Ctrl + D","Bookmark the page"],["Ctrl + H","Open history"],["Ctrl + J","Open downloads"],["Ctrl + Shift + N","Open an Incognito window"],["Ctrl + Shift + Delete","Clear browsing data"],["Ctrl + +","Zoom in"],["Ctrl + 0","Reset zoom"],["F12","Open Developer Tools"]]},
+{id:"powerpoint",title:"PowerPoint shortcuts",sub:"Build and present slides.",type:"keys",rows:[
+["Ctrl + M","Insert a new slide"],["F5","Start the slideshow from the beginning"],["Shift + F5","Start the slideshow from the current slide"],["Esc","End the slideshow"],["B","Black screen during the show"],["W","White screen during the show"],["Ctrl + D","Duplicate the selected object or slide"],["Ctrl + G","Group objects"],["Ctrl + Shift + G","Ungroup objects"],["Ctrl + Shift + C","Copy formatting"],["Ctrl + Shift + V","Paste formatting"],["Alt + F5","Presenter view"]]},
+{id:"formulas",title:"Excel formulas",sub:"Use the Copy button to paste straight into your sheet.",type:"formula",rows:[
+["SUM","=SUM(A1:A10)","Adds up the cells"],["AVERAGE","=AVERAGE(A1:A10)","Calculates the average"],["COUNT","=COUNT(A1:A10)","Counts cells with numbers"],["COUNTA","=COUNTA(A1:A10)","Counts cells that are not empty"],
+["MAX / MIN","=MAX(A1:A10)","Largest or smallest number"],["IF","=IF(A1>=33,\"Pass\",\"Fail\")","Returns a result based on a condition"],["IFERROR","=IFERROR(A1/B1,0)","Shows another value if there is an error"],
+["SUMIF","=SUMIF(A:A,\"Delhi\",B:B)","Adds cells that meet a condition"],["COUNTIF","=COUNTIF(A:A,\">50\")","Counts cells that meet a condition"],["SUMIFS","=SUMIFS(C:C,A:A,\"Delhi\",B:B,\"2026\")","Adds with multiple conditions"],
+["VLOOKUP","=VLOOKUP(E2,A:C,3,FALSE)","Looks up a value in the left column and returns a match"],["XLOOKUP","=XLOOKUP(E2,A:A,C:C,\"Not found\")","A newer, better VLOOKUP"],["INDEX + MATCH","=INDEX(C:C,MATCH(E2,A:A,0))","Lookup in any direction"],
+["CONCAT / &","=A1&\" \"&B1","Joins text"],["TEXTJOIN","=TEXTJOIN(\", \",TRUE,A1:A5)","Joins text with a separator"],["LEFT / RIGHT","=LEFT(A1,3)","Characters from the start or end of text"],["MID","=MID(A1,2,4)","Extracts characters from the middle"],
+["LEN","=LEN(A1)","Counts characters"],["TRIM","=TRIM(A1)","Removes extra spaces"],["UPPER / LOWER / PROPER","=PROPER(A1)","Changes letter case"],["TODAY / NOW","=TODAY()","Today’s date or the current time"],
+["DATEDIF","=DATEDIF(A1,TODAY(),\"Y\")","Years, months or days between two dates"],["ROUND","=ROUND(A1,2)","Rounds decimals"],["FILTER","=FILTER(A:C,B:B>50)","Returns rows that meet a condition"],["UNIQUE","=UNIQUE(A1:A100)","List without duplicates"],["SORT","=SORT(A1:B20,2,-1)","Sorts data"],["AND / OR","=IF(AND(A1>5,B1<10),\"Yes\",\"No\")","Combine more than one condition"]]},
+{id:"alt",title:"Alt codes",sub:"Hold Alt, type the number on the Numpad, then release Alt.",type:"keys",rows:[
+["Alt + 0169","© Copyright"],["Alt + 0174","® Registered"],["Alt + 0153","™ Trademark"],["Alt + 0176","° Degree"],["Alt + 0177","± Plus-minus"],["Alt + 0178","² Squared"],["Alt + 0179","³ Cubed"],
+["Alt + 0189","½ One half"],["Alt + 0163","£ Pound"],["Alt + 0128","€ Euro"],["Alt + 0165","¥ Yen"],["Alt + 0181","µ Micro"],["Alt + 0215","× Multiply"],["Alt + 0247","÷ Divide"],["Alt + 3","♥ Heart"],["Alt + 1","☺ Smiley"]]},
+{id:"run",title:"Run and CMD commands",sub:"Press Win + R, type the command, then press Enter.",type:"cmd",rows:[
+["cmd","Opens Command Prompt"],["notepad","Opens Notepad"],["calc","Opens Calculator"],["mspaint","Opens Paint"],["control","Opens Control Panel"],["msconfig","System Configuration (startup)"],["taskmgr","Opens Task Manager"],["appwiz.cpl","List of programs to uninstall"],["devmgmt.msc","Device Manager"],["diskmgmt.msc","Disk Management"],["regedit","Registry Editor (use with care)"],["%temp%","Temporary files folder"],["ncpa.cpl","Network connections"],["ipconfig","CMD: shows your IP address"],["ipconfig /all","CMD: full network details"],["ping google.com","CMD: checks your internet connection"],["systeminfo","CMD: full computer information"],["chkdsk /f","CMD: fixes disk errors"],["sfc /scannow","CMD: scans and repairs system files (Admin)"],["shutdown /s /t 0","CMD: shuts down immediately"],["tasklist","CMD: lists running programs"],["cls","CMD: clears the screen"]]}
+];
+var content=document.getElementById("content"),empty=document.getElementById("empty"),q=document.getElementById("q");
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function hi(s,t){if(!t)return esc(s);var e=esc(s),r=new RegExp("("+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&").replace(/&/g,"&amp;")+")","ig");return e.replace(r,"<mark>$1</mark>")}
+function render(){
+  var t=q.value.trim(),html="",total=0;
+  DATA.forEach(function(sec){
+    var rows=sec.rows.filter(function(r){return !t||r.join(" ").toLowerCase().indexOf(t.toLowerCase())>-1});
+    if(!rows.length)return;
+    total+=rows.length;
+    html+='<section id="'+sec.id+'"><h2>'+sec.title+'</h2><p>'+sec.sub+'</p><div class="table">';
+    rows.forEach(function(r,i){
+      if(sec.type==="formula"){
+        html+='<div class="row f"><div class="l">'+hi(r[0],t)+'</div><div class="d">'+hi(r[2],t)+'<small>'+hi(r[1],t)+'</small></div><button class="copy" data-c="'+esc(r[1]).replace(/"/g,"&quot;")+'">Copy</button></div>';
+      }else if(sec.type==="cmd"){
+        html+='<div class="row"><div class="l"><code>'+hi(r[0],t)+'</code></div><div class="d">'+hi(r[1],t)+'</div></div>';
+      }else{
+        html+='<div class="row"><div class="l">'+K(esc(r[0]))+'</div><div class="d">'+hi(r[1],t)+'</div></div>';
+      }
+    });
+    html+='</div></section>';
+  });
+  content.innerHTML=html;
+  empty.style.display=total?"none":"block";
+}
+q.addEventListener("input",render);
+content.addEventListener("click",function(e){
+  var b=e.target.closest(".copy");if(!b)return;
+  var txt=b.getAttribute("data-c");
+  function done(){b.textContent="Copied";setTimeout(function(){b.textContent="Copy"},1200)}
+  try{navigator.clipboard.writeText(txt).then(done,function(){fallback()})}catch(x){fallback()}
+  function fallback(){var a=document.createElement("textarea");a.value=txt;document.body.appendChild(a);a.select();try{document.execCommand("copy");done()}catch(y){}document.body.removeChild(a)}
+});
+document.getElementById("theme").addEventListener("click",function(){
+  var r=document.documentElement,dark=r.getAttribute("data-theme")!=="light";
+  r.setAttribute("data-theme",dark?"light":"dark");
+});
+render();
+</script>
+</body>
+</html>
